@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="shoppingcart.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>OUR AVAILABLE PRODUCT</h1>
+            <div class="iconcart">
+                <img src="images/cart.png" alt="Cart">
+                <div class="totalquantity">0</div>
+            </div>
+        </header>
+    </div>
+    <section class="cart">
+        <h2>BASKET</h2>
+        <div class="listCart">
+            <div class="item">
+                <img src="images/drysuit (1).png" alt="">
+                <div class="content">
+                    <div class="name">Product Name</div>
+                    <div class="price">$50/1 product</div>
+                </div>
+                <div class="quantity">
+                    <button>-</button>
+                    <span class="value">3</span>
+                    <button>+</button>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="close">CLOSE</div>
+            <div class="checkout">CHECKOUT</div>
+        </div>
+    </section>
+    <main>
+        <h1>OUR AVAILABLE PRODUCT LIST</h1>
+        <div class="listProduct">
+            <div class="item">
+                <h2>Product Name</h2>
+                <div class="price">$50</div>
+                <button class="listbtn">ADD TO CART</button>
+            </div>
+        </div>
+    </main>
+    <script src="shoppingcart.js"></script>
+</body>
+</html>
