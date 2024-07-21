@@ -178,3 +178,7 @@ h1{
     background-color: coral;
     color: white;
 }
+
+header h1{
+    text-align: center;
+}
